@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-app {
+  border-radius: 1rem;
+  background-color: #202124;
+  height: 90vh;
+  margin: 5vh auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  box-shadow: 5px 5px 10px #20212486;
+}
+button {
+  margin: 0.5rem 0.5rem;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+#cover {
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  border-radius: 0.85rem;
+  margin-top: 0.2rem;
+  max-width: 65%;
+}
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#track-information {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2rem;
+  text-align: center;
+}
+#artist,
+#name-track {
+  margin: 10px auto;
+}
+
+#previous,
+#next {
+  font-size: 3rem;
+}
+#play-pause {
+  font-size: 4rem;
+}
+#container-button {
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: block;
+  }
+  .container-app {
+    max-width: 300px;
+    height: 90vh;
+  }
+  #cover {
+    max-width: 80%;
+  }
+  #previous,
+  #next {
+    font-size: 2rem;
+  }
+  #play-pause {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .container-app {
+    max-width: 95%;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

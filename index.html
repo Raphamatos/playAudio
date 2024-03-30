@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="src/ico_favicon_dev.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>AudioPlay</title>
+  </head>
+  <body>
+    <main class="container-app">
+      <img id="cover" src="src/capa.jpeg" alt="capa" />
+      <audio id="audio" src="src/music (1).mp3"></audio>
+      <div id="track-information">
+        <p id="artist">Adelle</p>
+        <p id="name-track">Music 1</p>
+      </div>
+      <div id="container-button">
+        <button id="previous" class="bi bi-skip-backward-circle"></button>
+        <button id="play-pause" class="bi bi-play-circle-fill"></button>
+        <button id="next" class="bi bi-fast-forward-circle"></button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
