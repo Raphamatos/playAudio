@@ -16,7 +16,7 @@ body {
 
 .container-app {
   border-radius: 1rem;
-  background-color: #202124;
+  background-color: #191414;
   height: 90vh;
   margin: 5vh auto;
   max-width: 400px;
@@ -24,8 +24,10 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: #fff;
-  box-shadow: 5px 5px 10px #20212486;
+  color: #1ed760;
+  border: 0.5vmin solid #191414;
+  box-shadow: 0.4rem 0.4rem #1ed760;
+  overflow: hidden;
 }
 button {
   margin: 0.5rem 0.5rem;
@@ -35,11 +37,14 @@ button {
   cursor: pointer;
 }
 #cover {
+  border-radius: 16px;
+  box-shadow:  5px 5px 10px #262727,
+  -5px -5px 10px #262727;
   transition-duration: 0.5s;
   transition-timing-function: linear;
   border-radius: 0.85rem;
   margin-top: 0.2rem;
-  max-width: 65%;
+  max-width: 55%;
 }
 .music-container {
   display: flex;
@@ -64,6 +69,7 @@ button {
   font-size: 3rem;
 }
 #play-pause {
+  color: #fff;
   font-size: 4rem;
 }
 #container-button {
@@ -71,6 +77,7 @@ button {
   justify-content: center;
 }
 p {
+  color: #fff;
   font-size: 1.5rem;
 }
 
