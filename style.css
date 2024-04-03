@@ -7,11 +7,29 @@
   box-sizing: border-box;
 }
 body {
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
+}
+footer#copyRight {
+  background-color: #191414;
+  color: #fafafa;
+  font-size: 85%;
+  width: 100%;
+  font-style: none;
+  display: flex;
+  padding: 1rem 10%;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+footer#copyRight a {
+  color: #1ed760;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .container-app {
